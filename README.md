@@ -10,6 +10,7 @@ Pre-trained language models have been recently shown to benefit task-oriented di
 
 ### 1. Citation
 If you find our paper and resources useful, please kindly cite our paper:
+
     @article{su2021pptod,
       author    = {Yixuan Su and
                    Lei Shu and
@@ -23,6 +24,7 @@ If you find our paper and resources useful, please kindly cite our paper:
       year      = {2021},
       eprinttype = {arXiv}
     }
+    
 ### 2. Environment Setup:
 ```yaml
 pip3 install -r requirements.txt
