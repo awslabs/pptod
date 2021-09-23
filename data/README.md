@@ -21,7 +21,7 @@ chmod +x ./post-processing_pre-training_data.sh
 
 
 
-# Downstream TOD Task Datasets Preparation:
+# Preparation of Benchmark TOD Task Datasets:
 ## 1. MultiWOZ Data:
 The MultiWOZ dataset is used for both end-to-end task-oriented dialogue modelling and dialogue state tracking tasks.
 ### (1) Preparation:
