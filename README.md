@@ -56,13 +56,13 @@ The detailed instruction for preparing the pre-training corpora and the data of 
 To pre-train a PPTOD model from scratch, please refer to details provided in ./Pretraining directory.
 
 ### 5. Downstream Tasks:
-#### (1). End-to-End Task-Oriented Dialogue Modelling:
+#### (1) End-to-End Task-Oriented Dialogue Modelling:
 To perform End-to-End Task-Oriented Dialogue Modelling using PPTOD, please refer to details provided in ./E2E_TOD directory. 
 
-#### (2). Dialogue State Tracking:
+#### (2) Dialogue State Tracking:
 To perform DST using PPTOD, please refer to details provided in ./DST directory. 
 
-#### (3). Intent Classification:
+#### (3) Intent Classification:
 To perform Intent Classification using PPTOD, please refer to details provided in ./IC directory. 
 
 ## Security
