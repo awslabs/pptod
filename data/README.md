@@ -37,23 +37,23 @@ Take a coffee, this process will take around 30 minutes.
 ```json
 [
     {
-            "dial_id": "PMUL1170",
-            "user": "i need to take a train out of cambridge , i will be leaving town on wednesday .",
-            "resp": "there are [value_choice] trains out of [value_departure] on [value_day] . do you have a departure time in mind ?",
-            "bspn": "[train] day wednesday departure cambridge",
-            "aspn": "[train] [inform] choice departure day [request] leave",
-            "turn_num": 0,
-            "db": "[db_3]",
-        },
-        {
-            "dial_id": "PMUL1170",
-            "user": "<sos_u> i would like to go to peterborough and leave after 12:45 , i have to attend a meeting beforehand . <eos_u>",
-            "resp": "<sos_r> [value_id] leaves at [value_leave] on [value_day] . will that work for you ? <eos_r>",
-            "bspn": "<sos_b> [train] day wednesday departure cambridge leave 12:45 destination peterborough <eos_b>",
-            "aspn": "<sos_a> [train] [inform] day leave id <eos_a>",
-            "turn_num": 1,
-            "db": "<sos_db> [db_3] <eos_db>",
-        },
+        "dial_id": "PMUL1170",
+        "user": "i need to take a train out of cambridge , i will be leaving town on wednesday .",
+        "resp": "there are [value_choice] trains out of [value_departure] on [value_day] . do you have a departure time in mind ?",
+        "bspn": "[train] day wednesday departure cambridge",
+        "aspn": "[train] [inform] choice departure day [request] leave",
+        "turn_num": 0,
+        "db": "[db_3]",
+    },
+    {
+        "dial_id": "PMUL1170",
+        "user": "<sos_u> i would like to go to peterborough and leave after 12:45 , i have to attend a meeting beforehand . <eos_u>",
+        "resp": "<sos_r> [value_id] leaves at [value_leave] on [value_day] . will that work for you ? <eos_r>",
+        "bspn": "<sos_b> [train] day wednesday departure cambridge leave 12:45 destination peterborough <eos_b>",
+        "aspn": "<sos_a> [train] [inform] day leave id <eos_a>",
+        "turn_num": 1,
+        "db": "<sos_db> [db_3] <eos_db>",
+    },
     ...
 ]
 ```
