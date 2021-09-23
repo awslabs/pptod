@@ -12,16 +12,16 @@ Pre-trained language models have been recently shown to benefit task-oriented di
 If you find our paper and resources useful, please kindly cite our paper:
 
     @article{su2021pptod,
-      author    = {Yixuan Su and
-                   Lei Shu and
-                   Elman Mansimov and
-                   Arshit Gupta and
-                   Deng Cai and
-                   Yi-An Lai and
-                   Yi Zhang},
-      title     = {PPTOD: Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System},
-      journal   = {CoRR},
-      year      = {2021},
+      author = {Yixuan Su and
+                Lei Shu and
+                Elman Mansimov and
+                Arshit Gupta and
+                Deng Cai and
+                Yi-An Lai and
+                Yi Zhang},
+      title  = {PPTOD: Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System},
+      journal = {CoRR},
+      year = {2021},
       eprinttype = {arXiv}
     }
     
