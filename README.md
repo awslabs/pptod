@@ -79,8 +79,7 @@ If you find our paper and resources useful, please kindly cite our paper:
       title     = {PPTOD: Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System},
       journal   = {CoRR},
       year      = {2021},
-      eprinttype = {arXiv},
-      bibsource = {dblp computer science bibliography, https://dblp.org}
+      eprinttype = {arXiv}
     }
 
 
