@@ -35,8 +35,8 @@ Take a coffee, this process will take around 30 minutes.
 
 ### (2) Data Format:
 ```json
-    [
-        {
+[
+    {
             "dial_id": "PMUL1170",
             "user": "i need to take a train out of cambridge , i will be leaving town on wednesday .",
             "resp": "there are [value_choice] trains out of [value_departure] on [value_day] . do you have a departure time in mind ?",
@@ -54,8 +54,8 @@ Take a coffee, this process will take around 30 minutes.
             "turn_num": 1,
             "db": "<sos_db> [db_3] <eos_db>",
         },
-        ...
-    ]
+    ...
+]
 ```
 We use json to store the data. Each dialogue session is represented as a list of turns. Each turn is represented as a dictionary that contains the following fields:
 
