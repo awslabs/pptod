@@ -32,7 +32,7 @@ pip3 install gdown
 python -m spacy download en_core_web_sm
 ```
 
-### 3. PPTOD checkpoints:
+### 3. PPTOD Checkpoints:
 You can download checkpoints of PPTOD with different configurations here.
 
 | PPTOD-small       | PPTOD-base          | PPTOD-large  |
