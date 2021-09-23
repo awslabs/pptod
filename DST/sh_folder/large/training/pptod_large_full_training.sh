@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=0,1 python ../../../learn.py\
+    --data_path_prefix ../../../../data/multiwoz/data/multi-woz-fine-processed/\
+    --model_name t5-large\
+    --pretrained_path ../../../../checkpoints/large/\
+    --ckpt_save_path ../../../ckpt/large/full_training/\
+    --epoch_num 40\
+    --optimizer_name adam\
+    --learning_rate 2e-5\
+    --gradient_accumulation_steps 16\
+    --number_of_gpu 2\
+    --batch_size_per_gpu 2
