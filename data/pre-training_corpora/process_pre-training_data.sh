@@ -1,0 +1,10 @@
+cd utlis
+python process_camres676_dataset.py
+python process_frame_dataset.py  
+python process_kvret_dataset.py
+python process_metalwoz_dataset.py
+python process_mse2e_dataset.py
+python process_schema_guided_dataset.py
+python process_taskmaster_dataset.py
+python process_woz_dataset.py
+python process_intent_classification_dataset.py
