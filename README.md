@@ -8,16 +8,32 @@ Pre-trained language models have been recently shown to benefit task-oriented di
 
 ![Alt text](https://github.com/awslabs/pptod/blob/main/overview.png)
 
+### 1. Citation
+If you find our paper and resources useful, please kindly cite our paper:
+
+    @article{su2021pptod,
+      author    = {Yixuan Su and
+                   Lei Shu and
+                   Elman Mansimov and
+                   Arshit Gupta and
+                   Deng Cai and
+                   Yi-An Lai and
+                   Yi Zhang},
+      title     = {PPTOD: Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System},
+      journal   = {CoRR},
+      year      = {2021},
+      eprinttype = {arXiv}
+    }
 
 
-### 1. Environment Setup:
+### 2. Environment Setup:
 ```yaml
 pip3 install -r requirements.txt
 pip3 install gdown
 python -m spacy download en_core_web_sm
 ```
 
-### 2. PPTOD checkpoints:
+### 3. PPTOD checkpoints:
 You can download checkpoints of PPTOD with different configurations here.
 
 | PPTOD-small       | PPTOD-base          | PPTOD-large  |
@@ -49,13 +65,13 @@ chmod +x ./download_pptod_large.sh
 ./download_pptod_large.sh
 ```
 
-### 3. Data Preparation:
+### 4. Data Preparation:
 The detailed instruction for preparing the pre-training corpora and the data of downstream TOD tasks are provided in the ./data folder.
 
-### 4. Dialogue Multi-Task Pre-training:
+### 5. Dialogue Multi-Task Pre-training:
 To pre-train a PPTOD model from scratch, please refer to details provided in ./Pretraining directory.
 
-### 5. Downstream Tasks:
+### 6. Downstream Tasks:
 #### (1) End-to-End Task-Oriented Dialogue Modelling:
 To perform End-to-End Task-Oriented Dialogue Modelling using PPTOD, please refer to details provided in ./E2E_TOD directory. 
 
@@ -64,23 +80,6 @@ To perform DST using PPTOD, please refer to details provided in ./DST directory.
 
 #### (3) Intent Classification:
 To perform Intent Classification using PPTOD, please refer to details provided in ./IC directory. 
-
-### 5. Citation
-If you find our paper and resources useful, please kindly cite our paper:
-
-    @article{su2021pptod,
-      author    = {Yixuan Su and
-                   Lei Shu and
-                   Elman Mansimov and
-                   Arshit Gupta and
-                   Deng Cai and
-                   Yi-An Lai and
-                   Yi Zhang},
-      title     = {PPTOD: Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System},
-      journal   = {CoRR},
-      year      = {2021},
-      eprinttype = {arXiv}
-    }
 
 
 ## Security
