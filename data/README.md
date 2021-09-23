@@ -79,6 +79,6 @@ chmod +x ./banking77_preparation.sh
 ### (2) Data Format:
 Each data sample consists of two parts: (1) the user's utterance and (2) the user's intent class label. An example is provided in the following.
 ```yaml
-    The user's uttrance: How much can I top-up to my card at a time?
-    The user's intent class label: [top_up_limits]
+The user's uttrance: How much can I top-up to my card at a time?
+The user's intent class label: [top_up_limits]
 ```
