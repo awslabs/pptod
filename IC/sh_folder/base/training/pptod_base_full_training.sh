@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=2,3,4,5 python ../../../learn.py\
+    --data_prefix ../../../../data/banking77/\
+    --datapoints_per_intent 10000\
+    --num_train_epochs 100\
+    --model_name t5-base\
+    --format_mode bs\
+    --pretrained_path ../../../../checkpoints/base/\
+    --batch_size_per_gpu 32\
+    --number_of_gpu 4\
+    --gradient_accumulation_steps 1\
+    --save_path ../../../ckpt/base/full_training/
