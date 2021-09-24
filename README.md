@@ -69,7 +69,7 @@ The detailed instruction for preparing the pre-training corpora and the data of 
 ### 5. Dialogue Multi-Task Pre-training:
 To pre-train a PPTOD model from scratch, please refer to details provided in ./Pretraining directory.
 
-### 6. Downstream Benchmark TOD Tasks:
+### 6. Benchmark TOD Tasks:
 #### (1) End-to-End Dialogue Modelling:
 To perform End-to-End Dialogue Modelling using PPTOD, please refer to details provided in ./E2E_TOD directory. 
 
