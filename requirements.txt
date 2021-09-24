@@ -12,3 +12,4 @@ pyyaml
 nltk
 sentencepiece
 spacy
+gdown
