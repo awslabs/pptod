@@ -4,7 +4,7 @@
 
 |               | PPTOD-small         |PPTOD-base|PPTOD-large|
 |:-------------:|:-------------:|:-----:|:-----:|
-| Model Checkpoints | [full-train-small](https://drive.google.com/file/d/15KIaCd0Y8EGYYW4x0cBH2--fwAJ-AxCI/view?usp=sharing) | [full-train-base](https://drive.google.com/file/d/108vA2eLBt6hPBT_9jXC5_lX0H2V2iwCq/view?usp=sharing) |[full-train-large](https://drive.google.com/file/d/1VLqZCglGXBXl5ijg3XHgcrGN4tTzqmCn/view?usp=sharing)|
+| Model Checkpoints | [full-train-small](https://pptod.s3.amazonaws.com/DST/epoch_3_best_ckpt.zip) | [full-train-base](https://pptod.s3.amazonaws.com/DST/epoch_4_best_ckpt.zip) |[full-train-large](https://pptod.s3.amazonaws.com/DST/epoch_10_best_ckpt.zip)|
 | Joint Accuracy |51.50% |53.37%|53.89%|
 
 Download and unzip the pretrained checkpoint under the "./ckpt/X/full_training/" directory. 
