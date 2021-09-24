@@ -4,9 +4,9 @@
 
 |               | Inform        |Success|BLEU|Combined Score|
 | :-------------: |:-------------:|:-----:|:-----:|:-----:|
-|[small](https://drive.google.com/file/d/1o2pi8Oe6pdirxvCllf260GFOuKLfXzsu/view?usp=sharing) |87.80|75.30 | **19.89**|101.44|
-| [base](https://drive.google.com/file/d/172L5_GNFuWjcfBVdI4Tto7dAiYL4bYRE/view?usp=sharing)|**89.20**| **79.40**|18.62 |**102.92**|
-| [large](https://drive.google.com/file/d/1kH-6Vbe2u8eT-QWIOYM_eS_6PbsNbp8q/view?usp=sharing)|82.60| 74.10|19.21 |97.56|
+|[small](https://pptod.s3.amazonaws.com/E2E/epoch_9_best_ckpt.zip) |87.80|75.30 | **19.89**|101.44|
+| [base](https://pptod.s3.amazonaws.com/E2E/epoch_6_best_ckpt.zip)|**89.20**| **79.40**|18.62 |**102.92**|
+| [large](https://pptod.s3.amazonaws.com/E2E/epoch_5_best_ckpt.zip)|82.60| 74.10|19.21 |97.56|
 
 
 Download and unzip the pretrained checkpoint under the "./ckpt/X/full_training/" directory. 
