@@ -37,7 +37,7 @@ You can download checkpoints of PPTOD with different configurations here.
 
 | PPTOD-small       | PPTOD-base          | PPTOD-large  |
 | :-------------: |:-------------:| :-----:|
-| [here](https://drive.google.com/file/d/1rZ81AJJCRzJM2pbpCkvLKCJKwweAZ1Gr/view?usp=sharing)      | [here](https://drive.google.com/file/d/1EEp9vAwg4vi-MCFBa5Q75oqrXnfu2UJt/view?usp=sharing) | [here](https://drive.google.com/file/d/1rz7LMxxZA7OO96Iy0U3oVzqLbdZERoB5/view?usp=sharing) |
+| [here](https://pptod.s3.amazonaws.com/Pretrain/small.zip)      | [here](https://drive.google.com/file/d/1EEp9vAwg4vi-MCFBa5Q75oqrXnfu2UJt/view?usp=sharing) | [here](https://drive.google.com/file/d/1rz7LMxxZA7OO96Iy0U3oVzqLbdZERoB5/view?usp=sharing) |
 
 To use PPTOD, you should download the checkpoint you want and unzip it in the ./checkpoints directory.
 
