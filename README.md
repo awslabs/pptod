@@ -28,7 +28,6 @@ If you find our paper and resources useful, please kindly cite our paper:
 ### 2. Environment Setup:
 ```yaml
 pip3 install -r requirements.txt
-pip3 install gdown
 python -m spacy download en_core_web_sm
 ```
 
