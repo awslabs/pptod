@@ -1,4 +1,4 @@
-## PPTOD: Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System
+## Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System
 **Authors**: Yixuan Su, Lei Shu, Elman Mansimov, Arshit Gupta, Deng Cai, Yi-An Lai, and Yi Zhang
 
 Code our PPTOD paper: [PPTOD: Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System]()
