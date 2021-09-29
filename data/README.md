@@ -31,7 +31,7 @@ cd ./multiwoz/
 chmod +x ./data_preparation.sh
 ./data_preparation.sh
 ```
-Take a coffee, this process will take around 30 minutes.
+Take a coffee, this process will take around 60 minutes.
 
 ### (2) Data Format:
 ```json
