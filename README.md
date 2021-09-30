@@ -19,7 +19,7 @@ If you find our paper and resources useful, please kindly cite our paper:
                 Deng Cai and
                 Yi-An Lai and
                 Yi Zhang},
-      title  = {PPTOD: Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System},
+      title  = {Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System},
       journal = {CoRR},
       year = {2021},
       eprinttype = {arXiv}
