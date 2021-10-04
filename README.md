@@ -11,14 +11,14 @@ Pre-trained language models have been recently shown to benefit task-oriented di
 ### 1. Citation
 If you find our paper and resources useful, please kindly cite our paper:
 
-        @misc{su2021multitask,
-              title={Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System}, 
-              author={Yixuan Su and Lei Shu and Elman Mansimov and Arshit Gupta and Deng Cai and Yi-An Lai and Yi Zhang},
-              year={2021},
-              eprint={2109.14739},
-              archivePrefix={arXiv},
-              primaryClass={cs.CL}
-        }
+   @misc{su2021multitask,
+         title={Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System}, 
+         author={Yixuan Su and Lei Shu and Elman Mansimov and Arshit Gupta and Deng Cai and Yi-An Lai and Yi Zhang},
+         year={2021},
+         eprint={2109.14739},
+         archivePrefix={arXiv},
+         primaryClass={cs.CL}
+   }
     
 ### 2. Environment Setup:
 ```yaml
