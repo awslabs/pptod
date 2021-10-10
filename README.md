@@ -11,7 +11,7 @@ Pre-trained language models have been recently shown to benefit task-oriented di
 ### 1. Citation
 If you find our paper and resources useful, please kindly cite our paper:
 
-  @article{su2021multitask,
+      @article{su2021multitask,
         author    = {Yixuan Su and
                      Lei Shu and
                      Elman Mansimov and
