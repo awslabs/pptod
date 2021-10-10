@@ -25,10 +25,7 @@ If you find our paper and resources useful, please kindly cite our paper:
         year      = {2021},
         url       = {https://arxiv.org/abs/2109.14739},
         eprinttype = {arXiv},
-        eprint    = {2109.14739},
-        timestamp = {Tue, 05 Oct 2021 08:17:36 +0200},
-        biburl    = {https://dblp.org/rec/journals/corr/abs-2109-14739.bib},
-        bibsource = {dblp computer science bibliography, https://dblp.org}
+        eprint    = {2109.14739}
       }
     
 ### 2. Environment Setup:
