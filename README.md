@@ -11,23 +11,25 @@ Pre-trained language models have been recently shown to benefit task-oriented di
 ### 1. Citation
 If you find our paper and resources useful, please kindly cite our paper:
 
-      @article{su2021multitask,
-        author    = {Yixuan Su and
-                     Lei Shu and
-                     Elman Mansimov and
-                     Arshit Gupta and
-                     Deng Cai and
-                     Yi{-}An Lai and
-                     Yi Zhang},
-        title     = {Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System},
-        journal   = {CoRR},
-        volume    = {abs/2109.14739},
-        year      = {2021},
-        url       = {https://arxiv.org/abs/2109.14739},
-        eprinttype = {arXiv},
-        eprint    = {2109.14739}
-      }
-    
+```bibtex
+@article{su2021multitask,
+   author = {Yixuan Su and
+             Lei Shu and
+             Elman Mansimov and
+             Arshit Gupta and
+             Deng Cai and
+             Yi{-}An Lai and
+             Yi Zhang},
+   title     = {Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System},
+   journal   = {CoRR},
+   volume    = {abs/2109.14739},
+   year      = {2021},
+   url       = {https://arxiv.org/abs/2109.14739},
+   eprinttype = {arXiv},
+   eprint    = {2109.14739}
+}
+```
+ 
 ### 2. Environment Setup:
 ```yaml
 pip3 install -r requirements.txt
