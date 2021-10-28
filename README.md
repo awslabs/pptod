@@ -9,6 +9,8 @@ Pre-trained language models have been recently shown to benefit task-oriented di
 ![Alt text](https://github.com/awslabs/pptod/blob/main/overview.png)
 
 ### Main Results:
+The following table shows our models performances on end-to-end dialogue modelling (Inform, Success, BLEU, and Combined Score) on MultiWOZ 2.0. It also shows the dialogue state tracking (DST) results on MultiWOZ 2.0 and intent classification accuracy on Banking77.
+
 |               | Inform        |Success|BLEU|Combined Score|DST Joint Accuracy|Intent Classification Accuracy|
 | :-------------: |:-------------:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |PPTOD-small |87.80|75.30 | **19.89**|101.44|51.50|93.27|
