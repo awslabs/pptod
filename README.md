@@ -8,7 +8,15 @@ Pre-trained language models have been recently shown to benefit task-oriented di
 
 ![Alt text](https://github.com/awslabs/pptod/blob/main/overview.png)
 
-### Citation
+### Main Results:
+|               | Inform        |Success|BLEU|Combined Score|DST Joint Accuracy|Intent Classification Accuracy|
+| :-------------: |:-------------:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|PPTOD-small |87.80|75.30 | **19.89**|101.44|51.50|93.27|
+| PPTOD-base|**89.20**| **79.40**|18.62 |**102.92**|53.37|93.86|
+| PPTOD-large|82.60| 74.10|19.21 |97.56|**53.89**|**94.08**|
+
+
+### Citation:
 If you find our paper and resources useful, please kindly cite our paper:
 
 ```bibtex
