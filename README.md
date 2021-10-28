@@ -8,7 +8,7 @@ Pre-trained language models have been recently shown to benefit task-oriented di
 
 ![Alt text](https://github.com/awslabs/pptod/blob/main/overview.png)
 
-### 1. Citation
+### Citation
 If you find our paper and resources useful, please kindly cite our paper:
 
 ```bibtex
@@ -30,13 +30,13 @@ If you find our paper and resources useful, please kindly cite our paper:
 }
 ```
  
-### 2. Environment Setup:
+### 1. Environment Setup:
 ```yaml
 pip3 install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-### 3. PPTOD Checkpoints:
+### 2. PPTOD Checkpoints:
 You can download checkpoints of PPTOD with different configurations here.
 
 | PPTOD-small       | PPTOD-base          | PPTOD-large  |
@@ -68,13 +68,13 @@ chmod +x ./download_pptod_large.sh
 ./download_pptod_large.sh
 ```
 
-### 4. Data Preparation:
+### 3. Data Preparation:
 The detailed instruction for preparing the pre-training corpora and the data of downstream TOD tasks are provided in the ./data folder.
 
-### 5. Dialogue Multi-Task Pre-training:
+### 4. Dialogue Multi-Task Pre-training:
 To pre-train a PPTOD model from scratch, please refer to details provided in ./Pretraining directory.
 
-### 6. Benchmark TOD Tasks:
+### 5. Benchmark TOD Tasks:
 #### (1) End-to-End Dialogue Modelling:
 To perform End-to-End Dialogue Modelling using PPTOD, please refer to details provided in ./E2E_TOD directory. 
 
