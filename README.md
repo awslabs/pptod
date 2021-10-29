@@ -39,6 +39,12 @@ If you find our paper and resources useful, please kindly cite our paper:
    eprint    = {2109.14739}
 }
 ```
+
+## Example Usage:
+In the following, we provide an example of how to use the pre-trained PPTOD (**without fine-tuning on downstream task**)
+
+
+
  
 ### 1. Environment Setup:
 ```yaml
