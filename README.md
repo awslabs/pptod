@@ -41,7 +41,7 @@ If you find our paper and resources useful, please kindly cite our paper:
 ```
 
 ## Example Usage:
-In the following, we provide an example of how to use the pre-trained PPTOD (**without fine-tuning on downstream task**). We assume you have downloaded the pptod-small checkpoint (you can find instructions below).
+In the following, we provide an example of how to use the pre-trained PPTOD to address different TOD tasks (**without fine-tuning on any downstream task**). We assume you have downloaded the pptod-small checkpoint (you can find instructions below).
 ```python
 # load the pre-trained PPTOD-small
 from transformers import T5Tokenizer
@@ -50,7 +50,8 @@ tokenizer = T5Tokenizer.from_pretrained(model_path)
 from E2E_TOD.modelling.T5Model import T5Gen_Model
 from E2E_TOD.ontology import sos_eos_tokens
 special_tokens = sos_eos_tokens
-model = T5Gen_Model(model_path, tokenizer, special_tokens, dropout=0.0, add_special_decoder_token=True, is_training=False)
+model = T5Gen_Model(model_path, tokenizer, special_tokens, dropout=0.0, 
+        add_special_decoder_token=True, is_training=False)
 model.eval()
 ```
 
