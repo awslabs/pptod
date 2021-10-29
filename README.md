@@ -88,9 +88,26 @@ print (model.tokenized_decode(x[0]))
 # <sos_b> [restaurant] rating five star date thursday night start time 3:30 number of people 2 city seattle <eos_b>
 ```
 ```python
-# the 
-
+# predict dialogue act
+input_id = da_prefix_id + [sos_context_token_id] + context_id + [eos_context_token_id]
+input_id = torch.LongTensor(input_id).view(1, -1)
+x = model.model.generate(input_ids = input_id, decoder_start_token_id = sos_a_token_id,
+            pad_token_id = pad_token_id, eos_token_id = eos_a_token_id, max_length = 128)
+print (model.tokenized_decode(x[0]))
+# the predicted result is
+# <sos_a> [restaurant] [inform] restaurant name rating [multiple_choice] restaurant name <eos_a>
 ```
+```python
+# predict system response
+input_id = nlg_prefix_id + [sos_context_token_id] + context_id + [eos_context_token_id]
+input_id = torch.LongTensor(input_id).view(1, -1)
+x = model.model.generate(input_ids = input_id, decoder_start_token_id = sos_r_token_id,
+            pad_token_id = pad_token_id, eos_token_id = eos_r_token_id, max_length = 128)
+print (model.tokenized_decode(x[0]))
+# the predicted result is 
+# <sos_r> ok, let me find some options for you. <eos_r>
+```
+
  
 ### 1. Environment Setup:
 ```yaml
