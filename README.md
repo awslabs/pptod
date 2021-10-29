@@ -41,7 +41,13 @@ If you find our paper and resources useful, please kindly cite our paper:
 ```
 
 ## Example Usage:
-In the following, we provide an example of how to use the pre-trained PPTOD (**without fine-tuning on downstream task**)
+In the following, we provide an example of how to use the pre-trained PPTOD (**without fine-tuning on downstream task**).
+```python
+from transformers import T5Tokenizer
+model_path = r'./checkpoints/small/'
+model = T5ForConditionalGeneration.from_pretrained(model_path)
+tokenizer = T5Tokenizer.from_pretrained(model_path)
+```
 
 
 
