@@ -71,7 +71,8 @@ nlg_prefix_id = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(nlg_prefix_te
 ```
 ```python
 # an example dialogue context
-dialogue_context = "<sos_u> can i reserve a five star place for thursday night at 3:30 for 2 people <eos_u> <sos_r> i'm happy to assist you! what city are you dining in? <eos_r> <sos_u> seattle please. <eos_u>"
+dialogue_context = "<sos_u> can i reserve a five star place for thursday night at 3:30 for 2 people <eos_u>\
+      <sos_r> i'm happy to assist you! what city are you dining in? <eos_r> <sos_u> seattle please. <eos_u>"
 ```
 
 
