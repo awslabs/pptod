@@ -54,6 +54,21 @@ model = T5Gen_Model(model_path, tokenizer, special_tokens, dropout=0.0,
         add_special_decoder_token=True, is_training=False)
 model.eval()
 ```
+```python
+# prepare some pre-defined tokens and task-specific prompts
+sos_context_token_id = tokenizer.convert_tokens_to_ids(['<sos_context>'])[0]
+eos_context_token_id = tokenizer.convert_tokens_to_ids(['<eos_context>'])[0]
+pad_token_id, sos_b_token_id, eos_b_token_id, sos_a_token_id, eos_a_token_id, \
+sos_r_token_id, eos_r_token_id, sos_ic_token_id, eos_ic_token_id = \
+tokenizer.convert_tokens_to_ids(['<_PAD_>', '<sos_b>', 
+'<eos_b>', '<sos_a>', '<eos_a>', '<sos_r>','<eos_r>', '<sos_d>', '<eos_d>'])
+bs_prefix_text = 'translate dialogue to belief state:'
+bs_prefix_id = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(bs_prefix_text))
+da_prefix_text = 'translate dialogue to dialogue action:'
+da_prefix_id = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(da_prefix_text))
+nlg_prefix_text = 'translate dialogue to system response:'
+nlg_prefix_id = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(nlg_prefix_text))
+```
 
 
 
