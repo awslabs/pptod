@@ -44,6 +44,7 @@ If you find our paper and resources useful, please kindly cite our paper:
 In the following, we provide an example of how to use the pre-trained PPTOD to address different TOD tasks (**without fine-tuning on any downstream task**). We assume you have downloaded the pptod-small checkpoint (you can find instructions below).
 ```python
 # load the pre-trained PPTOD-small
+import torch
 from transformers import T5Tokenizer
 model_path = r'./checkpoints/small/'
 tokenizer = T5Tokenizer.from_pretrained(model_path)
@@ -72,6 +73,15 @@ nlg_prefix_id = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(nlg_prefix_te
 ```python
 # an example dialogue context
 dialogue_context = "<sos_u> can i reserve a five star place for thursday night at 3:30 for 2 people <eos_u> <sos_r> i'm happy to assist you! what city are you dining in? <eos_r> <sos_u> seattle please. <eos_u>"
+context_id = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(dialogue_context))
+```
+```python
+# predict belief state 
+input_id = bs_prefix_id + [sos_context_token_id] + context_id + [eos_context_token_id]
+input_id = torch.LongTensor(input_id).view(1, -1)
+x = model.model.generate(input_ids = input_id, decoder_start_token_id = sos_b_token_id,
+            pad_token_id = pad_token_id, eos_token_id = eos_b_token_id, max_length = 128)
+print (model.tokenized_decode(x[0]))
 ```
 
 
