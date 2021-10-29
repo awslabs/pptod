@@ -41,7 +41,7 @@ If you find our paper and resources useful, please kindly cite our paper:
 ```
 
 ## Example Usage:
-In the following, we provide an example of how to use the pre-trained PPTOD (**without fine-tuning on downstream task**).
+In the following, we provide an example of how to use the pre-trained PPTOD (**without fine-tuning on downstream task**). We assume you have downloaded the pptod-small checkpoint as described in [Go to Real Cool Heading section](#### (1) Downloading Pre-trained PPTOD-small Checkpoint:)
 ```python
 from transformers import T5Tokenizer
 model_path = r'./checkpoints/small/'
