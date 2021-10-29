@@ -107,7 +107,16 @@ print (model.tokenized_decode(x[0]))
 # the predicted result is 
 # <sos_r> ok, let me find some options for you. <eos_r>
 ```
-
+```python
+# predict user intent
+input_id = ic_prefix_id + [sos_context_token_id] + context_id + [eos_context_token_id]
+input_id = torch.LongTensor(input_id).view(1, -1)
+x = model.model.generate(input_ids = input_id, decoder_start_token_id = sos_ic_token_id,
+            pad_token_id = pad_token_id, eos_token_id = eos_ic_token_id, max_length = 128)
+print (model.tokenized_decode(x[0]))
+# the predicted result is 
+# <sos_d> [book_restaurant] <eos_d>
+```
  
 ### 1. Environment Setup:
 ```yaml
