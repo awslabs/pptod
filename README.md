@@ -69,6 +69,8 @@ da_prefix_text = 'translate dialogue to dialogue action:'
 da_prefix_id = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(da_prefix_text))
 nlg_prefix_text = 'translate dialogue to system response:'
 nlg_prefix_id = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(nlg_prefix_text))
+ic_prefix_text = 'translate dialogue to user intent:'
+ic_prefix_id = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(ic_prefix_text))
 ```
 ```python
 # an example dialogue context
@@ -82,9 +84,13 @@ input_id = torch.LongTensor(input_id).view(1, -1)
 x = model.model.generate(input_ids = input_id, decoder_start_token_id = sos_b_token_id,
             pad_token_id = pad_token_id, eos_token_id = eos_b_token_id, max_length = 128)
 print (model.tokenized_decode(x[0]))
+# the predicted result is
+# <sos_b> [restaurant] rating five star date thursday night start time 3:30 number of people 2 city seattle <eos_b>
 ```
+```python
+# the 
 
-
+```
  
 ### 1. Environment Setup:
 ```yaml
