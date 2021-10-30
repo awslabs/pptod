@@ -41,7 +41,7 @@ If you find our paper and resources useful, please kindly cite our paper:
 ```
 
 ## Example Usage:
-In the following, we provide an example of how to use the pre-trained PPTOD to address different TOD tasks (**without fine-tuning on any downstream task!**). We assume you have downloaded the pptod-small checkpoint and have it in the "./checkpoints/small/" directory (you can find instructions below).
+In the following, we provide an example of how to use PPTOD to address different TOD tasks **without fine-tuning on any downstream task!** We assume you have downloaded the pptod-small checkpoint and have it in the "./checkpoints/small/" directory (you can find instructions below).
 ```python
 # load the pre-trained PPTOD-small
 import torch
