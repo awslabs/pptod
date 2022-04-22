@@ -332,7 +332,7 @@ class DSTMultiWozData:
             start_idx, end_idx = i*batch_size, (i+1)*batch_size
             if start_idx > data_num - 1:
                 break
-            end_idx = min(end_idx, data_num - 1)
+            end_idx = min(end_idx, data_num)
             one_input_batch_list, one_output_batch_list = [], []
             for idx in range(start_idx, end_idx):
                 one_input_batch_list.append(all_input_data_list[idx])
