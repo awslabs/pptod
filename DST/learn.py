@@ -325,7 +325,7 @@ if __name__ == '__main__':
                         os.system('rm -r ' + one_folder_name)
                 print ('-----------------------------------')
                 # --------------------------------------------------------------------------------------------- #
-            print ('Currnt joint accuracy is {}, best joint accuracy is {}'.format(round(dev_score, 2), round(max_dev_score, 2)))
+            print ('Current joint accuracy is {}, best joint accuracy is {}'.format(round(dev_score, 2), round(max_dev_score, 2)))
 
             print ('Current Result: ' + one_dev_str)
             print ('Best Result: ' + max_dev_str)
